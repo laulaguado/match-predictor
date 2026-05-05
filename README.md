@@ -4,7 +4,8 @@ Predictor de compatibilidad en Speed Dating usando CRISP-DM y Machine Learning
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28-red)
-![ROC-AUC](https://img.shields.io/badge/ROC--AUC-0.85-green)
+![ROC-AUC](https://img.shields.io/badge/ROC--AUC-?
+??-green)
 ![CRISP-DM](https://img.shields.io/badge/Metodología-CRISP--DM-purple)
 
 ## 📌 Descripción
