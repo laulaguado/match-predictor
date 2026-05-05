@@ -21,8 +21,8 @@ en una cita rápida, usando datos reales del experimento de Columbia University.
 ## 🤖 Modelos evaluados
 - Árbol de Decisión, Red Neuronal (MLP), SVM, KNN
 - Random Forest, XGBoost, Gradient Boosting
-- **Mejor modelo:** [completar tras entrenamiento]
-- **ROC-AUC final:** [completar tras entrenamiento]
+- **Mejor modelo:** Random Forest
+- **ROC-AUC final:** 0.9712
 
 ## 🚀 Cómo ejecutar
 
