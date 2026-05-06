@@ -1,27 +1,27 @@
-ANOVA F=6.0283 p=0.000050
+ANOVA F=1093.9816 p=0.000000
 Multiple Comparison of Means - Tukey HSD, FWER=0.05 
 ====================================================
 group1 group2 meandiff p-adj   lower   upper  reject
 ----------------------------------------------------
- Arbol     GB      0.0    1.0 -0.0015  0.0015  False
- Arbol    KNN  -0.0001    1.0 -0.0016  0.0014  False
- Arbol    MLP  -0.0022 0.0004 -0.0037 -0.0008   True
- Arbol     RF      0.0    1.0 -0.0015  0.0015  False
- Arbol    SVM      0.0    1.0 -0.0015  0.0015  False
- Arbol    XGB      0.0    1.0 -0.0015  0.0015  False
-    GB    KNN  -0.0001    1.0 -0.0016  0.0014  False
-    GB    MLP  -0.0022 0.0004 -0.0037 -0.0008   True
-    GB     RF      0.0    1.0 -0.0015  0.0015  False
-    GB    SVM      0.0    1.0 -0.0015  0.0015  False
-    GB    XGB      0.0    1.0 -0.0015  0.0015  False
-   KNN    MLP  -0.0021 0.0008 -0.0036 -0.0007   True
-   KNN     RF   0.0001    1.0 -0.0014  0.0016  False
-   KNN    SVM   0.0001    1.0 -0.0014  0.0016  False
-   KNN    XGB   0.0001    1.0 -0.0014  0.0016  False
-   MLP     RF   0.0022 0.0004  0.0008  0.0037   True
-   MLP    SVM   0.0022 0.0004  0.0008  0.0037   True
-   MLP    XGB   0.0022 0.0004  0.0008  0.0037   True
-    RF    SVM      0.0    1.0 -0.0015  0.0015  False
-    RF    XGB      0.0    1.0 -0.0015  0.0015  False
-   SVM    XGB      0.0    1.0 -0.0015  0.0015  False
+ Arbol     GB   0.0844    0.0  0.0685  0.1002   True
+ Arbol    KNN  -0.2395    0.0 -0.2553 -0.2236   True
+ Arbol    MLP   0.0725    0.0  0.0567  0.0884   True
+ Arbol     RF   0.0915    0.0  0.0756  0.1073   True
+ Arbol    SVM   0.0888    0.0   0.073  0.1047   True
+ Arbol    XGB   0.0887    0.0  0.0729  0.1046   True
+    GB    KNN  -0.3239    0.0 -0.3397  -0.308   True
+    GB    MLP  -0.0118 0.2721 -0.0277   0.004  False
+    GB     RF   0.0071 0.8201 -0.0088  0.0229  False
+    GB    SVM   0.0045 0.9777 -0.0114  0.0203  False
+    GB    XGB   0.0044 0.9801 -0.0115  0.0202  False
+   KNN    MLP    0.312    0.0  0.2962  0.3279   True
+   KNN     RF   0.3309    0.0  0.3151  0.3468   True
+   KNN    SVM   0.3283    0.0  0.3125  0.3442   True
+   KNN    XGB   0.3282    0.0  0.3124  0.3441   True
+   MLP     RF   0.0189 0.0096  0.0031  0.0348   True
+   MLP    SVM   0.0163   0.04  0.0004  0.0321   True
+   MLP    XGB   0.0162 0.0421  0.0003   0.032   True
+    RF    SVM  -0.0026 0.9987 -0.0185  0.0132  False
+    RF    XGB  -0.0027 0.9984 -0.0186  0.0131  False
+   SVM    XGB  -0.0001    1.0  -0.016  0.0157  False
 ----------------------------------------------------
