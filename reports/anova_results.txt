@@ -1,0 +1,27 @@
+ANOVA F=6.0283 p=0.000050
+Multiple Comparison of Means - Tukey HSD, FWER=0.05 
+====================================================
+group1 group2 meandiff p-adj   lower   upper  reject
+----------------------------------------------------
+ Arbol     GB      0.0    1.0 -0.0015  0.0015  False
+ Arbol    KNN  -0.0001    1.0 -0.0016  0.0014  False
+ Arbol    MLP  -0.0022 0.0004 -0.0037 -0.0008   True
+ Arbol     RF      0.0    1.0 -0.0015  0.0015  False
+ Arbol    SVM      0.0    1.0 -0.0015  0.0015  False
+ Arbol    XGB      0.0    1.0 -0.0015  0.0015  False
+    GB    KNN  -0.0001    1.0 -0.0016  0.0014  False
+    GB    MLP  -0.0022 0.0004 -0.0037 -0.0008   True
+    GB     RF      0.0    1.0 -0.0015  0.0015  False
+    GB    SVM      0.0    1.0 -0.0015  0.0015  False
+    GB    XGB      0.0    1.0 -0.0015  0.0015  False
+   KNN    MLP  -0.0021 0.0008 -0.0036 -0.0007   True
+   KNN     RF   0.0001    1.0 -0.0014  0.0016  False
+   KNN    SVM   0.0001    1.0 -0.0014  0.0016  False
+   KNN    XGB   0.0001    1.0 -0.0014  0.0016  False
+   MLP     RF   0.0022 0.0004  0.0008  0.0037   True
+   MLP    SVM   0.0022 0.0004  0.0008  0.0037   True
+   MLP    XGB   0.0022 0.0004  0.0008  0.0037   True
+    RF    SVM      0.0    1.0 -0.0015  0.0015  False
+    RF    XGB      0.0    1.0 -0.0015  0.0015  False
+   SVM    XGB      0.0    1.0 -0.0015  0.0015  False
+----------------------------------------------------
